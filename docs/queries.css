@@ -1,0 +1,590 @@
+@media(max-width:1250px){
+    header{
+        padding: 0 7%;
+    }
+    .main-container{
+        padding: 8%;
+    }
+}
+@media(max-width:1090px){
+    header{
+        padding: 0 5%;
+    }
+    .main-container{
+        padding: 6% 6% 12%;
+    }
+    .container-block{
+        display: flex;
+    }
+    .container-block-2-image{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .product-analysis{
+        padding: 40px 6%;
+}
+.analysis-heading-block {
+    max-width: 68%;
+}
+.analysis-description{
+    width: 74%;
+    line-height: 25px;
+}
+.analysis-footer-button .guarantee-button {
+    padding: 14px 50px;
+}
+.analysis-heading {
+    font-size: 30px;
+    line-height: 32px;
+}
+.analysis-footer-description {
+    font-size: 15px;
+    line-height: 20px;
+}
+.market-image-block img{
+    width: 250px;
+}
+.market-main-flex {
+    gap: 15px;
+}
+.market-main-image {
+    width: 100%;
+}
+.market-main-image svg{
+    width: 100%;
+    height: 100%;
+}
+.market-heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+}
+.market-description {
+    font-size: 16px;
+    line-height: 24px;
+}
+.secondary-content-text-block {
+    width: 85%;
+}
+.secondary-content-heading {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.secondary-content-description {
+font-size: 15px;
+width: 100%;
+}
+.secondary-img-section {
+    width: 95%;
+}
+.colorful-heading {
+    font-size: 32px;
+    font-weight: 700;
+}
+.colorful-description {
+    font-size: 16px;
+    width: 100%;
+}
+.main-footer {
+    padding: 10% 5% 5%;
+}
+.about_us-block {
+    gap: 20px;
+}
+/* .block-list {
+    line-height: 38px;
+    width: 140px;
+} */
+.block-list-lower-part {
+    line-height: 38px;
+    width: 125px;
+}
+.media-flex-lower-part {
+    gap: 35px;
+}
+.block-content-lower-part {
+    display: flex;
+gap: 0;
+}
+}
+@media(max-width:955px){
+    header {
+        padding: 0 10%;
+    }
+    .list-none{
+        display: none;
+    }
+    #main-nav-content {
+        padding: 12px 0;
+    }
+    .img-flex{
+        justify-content: flex-start;
+    }
+    .main-container {
+        padding: 6% 6% 10% 10%;
+        grid-template-columns: 2fr 1.5fr;
+        background-position: left bottom;
+    }
+    .guarantee-button {
+        font-size: 18px;
+        padding: 14px 18px;
+        width: 40%;
+    }
+    .container-block-2{
+        align-self: center;
+    }
+    .container-heading {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .img1-part1-size {
+        width: 110px;
+    }
+    .section-ads:nth-child(2) img{
+        width: 60px;
+    }
+    .capterra-img {
+        width: 120px;
+    }
+    .solution-paths{
+        flex-direction: column;
+        align-items: center;
+    }
+    .analysis-footer-button .guarantee-button {
+        padding: 14px 44px;
+        width: 45%;
+    }
+}
+@media(max-width:890px){
+    .analysis-footer {
+        gap: 20px;
+    }
+    .section-market {
+        padding: 60px 30px;
+    }
+    .secondary-img-section {
+        width: 100%;
+    }
+    .market-main-image {
+        width: 135%;
+    }
+    .secondary-content-text-block {
+        width: 100%;
+    }
+    .secondary-image-content-description {
+        color: #fff;
+        font-size: 22px;
+        width: 100%; 
+    }
+    .analysis-footer-button .guarantee-button {
+        padding: 16px 42px;
+        width: 50%;
+        font-size: 16px;
+    }
+    .market-button {
+        font-size: 16px;
+        padding: 12px 28px;
+    }
+    .colorful-heading{
+        text-align: center;
+    }
+    .colorful-description{
+        text-align: center;
+    width: 90%;
+    }
+    .main-footer {
+        padding: 10% 3% 5% 5%;
+    }
+    .footer-lower-part{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .about-acc {
+        font-size: 24px;
+        font-weight: 800;
+      width: 100%;
+    }
+    .about_us-special-block {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .block-list-lower-part {
+        line-height: 38px;
+        width: 140px;
+    }
+    .about_us-block {
+        gap: 25px;
+    }
+    .block-list {
+        line-height: 38px;
+        width: 155px;
+    }
+    .block-list-anchor {
+        font-size: 16px;
+    }
+    .copyright-part {
+        justify-content: flex-start;
+    }
+}
+@media(max-width:750px){
+    header {
+        padding: 0 15%;
+    }
+    .main-container{
+        background-image: url(images/main-section/main-mini-background-image.webp);
+        background-position: top;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0;
+        max-height: 1035px;
+    }
+    .container-block-1{
+        padding: 6% 15% 0;
+    }
+    .container-head{
+        text-align: center;
+    }
+    .container-description {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .container-heading {
+        font-size: 26px;
+        display: inline;
+    }
+    .container-guarantee,
+    .section-ad-logos,
+    .container-block-2,
+    .solution-main-hide{
+        display: none;
+    }
+    .mini-solution-flex{
+        width: 75%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    }
+    .mini-soluton-flex{
+        display: flex;
+    }
+    .mini-solution-container {
+        display: block;
+        width: 100%;
+        min-height: 250px;
+        border-radius: 14px;
+        backdrop-filter: blur(100px);
+    }
+    .mini-solution-paths{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;    
+    }
+    .mini-solution-query{
+        text-align: center;
+        padding: 28px 0;
+        font-size: 15px;    
+    }
+    .mini-path-block{
+        padding: 0 32px;
+    }
+.mini-path-block-text{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 8px 18px 8px 28px;
+    outline: 1px solid #000;
+    border-radius: 24px;
+}
+.mini-path-block-text:hover{
+    cursor: pointer;
+    color: #042bdb;
+    outline: 1px solid #042bdb;
+    transition: 0.3s all;
+}
+.mini-path-block-text:active{
+    color: #fff;
+    background-color: #042bdb;
+    transition: 0.3s all;
+}
+.mini-solution-logo,
+.mini-solution-stocks-logo{
+    display: block;
+}
+.mini-solution-stocks-logo img{
+    width: 100%;
+}
+    .product-analysis {
+        padding: 40px 14%;
+    }
+    .analysis-heading-block {
+        max-width: max-content;
+    }
+    .analysis-description-block{
+    max-width: max-content;
+    }
+    .analysis-description{
+        width: auto;
+    }
+    .grid-columns {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        gap: 40px;
+    }
+    .product-analysis-block {
+        padding: 45px 45px 35px;
+        gap: 25px;
+    }
+    .product-analysis-content-1 {
+        gap: 10px;
+    }
+    .product-analysis-heading {
+        font-size: 18px;
+    }
+    .product-analysis-text{
+        font-size: 14px;
+    }
+    .analysis-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .analysis-heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .analysis-footer-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .analysis-footer-button {
+        width: 100%;
+    }
+    .market-main-flex {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .market-main-image svg {
+        width: 70%;
+    }
+    .market-description-block {
+        align-items: center;
+    }
+    .market-text-block {
+        align-items: center;
+        gap: 30px;
+    }
+    .market-heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .market-description {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .guarantee-button {
+        width: 100%;
+    }
+    .section-market {
+        padding: 60px 14%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    .secondary-images-flex {
+        flex-direction: column-reverse;
+        min-height: 600px;
+    }
+    .secondary-content-heading {
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .secondary-image-content {
+        flex-grow: 1;
+        width: auto;
+    }
+    .secondary-main-image {
+        width: 100%;
+        flex-grow: 2;
+    }
+    .main-footer {
+        padding: 20% 14% 5%;
+    }
+    .footer-logo-flex {
+         align-items: start; 
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+    .footer-logos {
+        width: 60px;
+    }
+    .footer-about {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .business-block {
+        min-height: 180px;
+    }
+    .about-acc {
+        width: 80%;
+    }
+    .about_us-block {
+        gap: 80px;
+    }
+    .block-list {
+        line-height: 38px;
+        width: 175px;
+        text-align: start;
+    }
+    .media-flex-lower-part {
+        padding-top: 35px;
+    }
+    .block-content-lower-part {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+    .copyright-part {
+        justify-content: flex-start;
+    }
+}
+@media(max-width:650px){
+    .main-footer {
+        padding: 20% 10% 5%;
+    }
+    .block-content-lower-part-special-flex .block-list-lower-part{
+        width: 135px;
+    }
+    .block-list-lower-part .block-list-anchor{
+        font-size: 14px;
+    }
+}
+@media(max-width:620px){
+    .colorful-heading {
+        font-size: 20px;
+    }
+    .colorful-description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .colorful-button-block{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .analysis-footer-button .guarantee-button {
+        padding: 16px 42px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .market-button{
+        width: 100%;
+        padding: 16px 0;
+        background-color: black;
+}
+   
+}
+@media(max-width:485px){
+    header {
+        padding: 0px 6%;
+    }
+    .container-block-1 {
+        padding: 6% 6% 0;
+    }
+    .container-heading {
+        font-size: 18px;
+    }
+    .container-description {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .mini-solution-flex {
+        width: 90%;
+        gap: 25px;
+    }
+    .mini-solution-container {
+        padding-bottom: 20px;
+        min-height: 0;
+    }
+    .mini-solution-query {
+        padding: 20px 0;
+        font-size: 13px;
+    }
+    .mini-path-block {
+        padding: 0 20px;
+    }
+    .mini-path-block-text {
+        font-size: 13px;
+        padding: 8px 10px 8px 20px;
+    }
+    .grid-columns {
+        gap: 20px;
+    }
+    .product-analysis {
+        padding: 40px 6%;
+    }
+    .analysis-footer-button .guarantee-button {
+        width: 100%;
+    }
+    .market-logo-block {
+        gap: 5px;
+    }
+    
+    .section-market {
+        padding: 60px 3%;
+    }
+    .market-main-image {
+        width: 100%;
+    }
+    .main-footer {
+        padding: 20% 6% 5%;
+    }
+    .about_us-block{
+        display: flex;
+    flex-direction: column;
+    gap: 0;
+    }
+    .block-content-lower-part-special-flex {
+gap: 0;
+    }
+    .block-content-lower-part-special-flex .block-list-lower-part{
+        width: 120px;
+    }
+}
+@media(max-width:410px){
+    .list-image {
+        width: 100px;
+    }
+    .button {
+        padding: 6px 10px;
+        font-size: 0.6em;
+    }
+    .amazon-logos-block {
+        gap: 5px;
+    }
+    .media-flex-lower-part {
+        gap: 25px;
+    }
+    .block-content-lower-part-special-flex .block-list-lower-part {
+        width: 90px;
+        line-height: 20px;
+    }
+    .block-list-lower-part .block-list-anchor {
+        font-size: 15px;
+    }
+}
